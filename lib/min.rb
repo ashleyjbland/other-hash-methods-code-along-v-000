@@ -11,4 +11,5 @@ require 'pry'
 def get_the_min(groceries)
   items = groceries.values
   items.flatten.sort
+  binding.pry
 end
